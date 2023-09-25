@@ -22,6 +22,9 @@ do
         -db ../ref_db/ \
         --run-trim-repetitive \
         --run-fastqc-start
+
+    rm $fastq/$(basename "$fastq")_1.fastq.gz
+    rm $fastq/$(basename "$fastq")_2.fastq.gz
 done
 
 cd ..

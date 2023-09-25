@@ -8,7 +8,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=leati05@liu.se
 
-# load modules (Metaphlan 4.0.6)
+# load modules (Metaphlan 3.0.1)
 module load conda
 mamba activate mpa3.1
 
